@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/joao/aulas/ES26/__tests__/model/Conta.test.ts">
+    <testCase name="Conta sacar com sucesso" duration="4"/>
+    <testCase name="Conta sacar com valor zerado" duration="8"/>
+    <testCase name="Conta sacar com valor negativo" duration="1"/>
+    <testCase name="Conta sacar com valor acima do saldo" duration="1"/>
+    <testCase name="Conta sacar todo o saldo" duration="0"/>
+    <testCase name="Conta depositar com sucesso" duration="0"/>
+    <testCase name="Conta depositar com valor zerado" duration="1"/>
+    <testCase name="Conta depositar com valor negativo" duration="0"/>
+  </file>
+  <file path="/home/joao/aulas/ES26/__tests__/model/Recibo.test.ts">
+    <testCase name="Recibo criar com sucesso" duration="4"/>
+    <testCase name="Recibo validar código dos recibos" duration="0"/>
+    <testCase name="Recibo criar recibos com código positivo" duration="1"/>
+  </file>
+  <file path="/home/joao/aulas/ES26/__tests__/application/TransferenciaServicoMock.test.ts">
+    <testCase name="Transferencia Servico Mock transferir com sucesso" duration="5"/>
+    <testCase name="Transferencia Servico Mock conta de origem não encontrada" duration="1"/>
+    <testCase name="Transferencia Servico Mock conta de destino não encontrada" duration="1"/>
+  </file>
+  <file path="/home/joao/aulas/ES26/__tests__/model/NumeroConta.test.ts">
+    <testCase name="Número Conta número conta com seis digitos" duration="5"/>
+    <testCase name="Número Conta número de conta com cinco digitos" duration="6"/>
+    <testCase name="Número Conta número de conta com sete digitos" duration="1"/>
+    <testCase name="Número Conta número de conta valor que não seja digitos" duration="1"/>
+  </file>
+  <file path="/home/joao/aulas/ES26/__tests__/model/service/TransferenciaValor.test.ts">
+    <testCase name="Transferência valor transferência de valor entre contas com sucesso" duration="4"/>
+  </file>
+  <file path="/home/joao/aulas/ES26/__tests__/application/TransferenciaServico.test.ts">
+    <testCase name="Transferência Serviço transferir valor com sucesso" duration="5"/>
+    <testCase name="Transferência Serviço conta de origem não encontrada" duration="0"/>
+    <testCase name="Transferência Serviço conta de destino não encontrada" duration="1"/>
+  </file>
+</testExecutions>
